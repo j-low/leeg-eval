@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(.venv/bin/python3 -c \":*)"
+      "Bash(.venv/bin/python3 -c \":*)",
+      "Bash(.venv/bin/python -m pytest tests/test_scorers.py -v)"
     ]
   }
 }
