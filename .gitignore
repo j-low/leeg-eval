@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# MLflow local tracking store (run data can be large)
+experiments/results/
+
+# Eval run outputs (local only — not part of source control)
+reports/runs/
+
+# Logs
+*.log
+logs/
+
+# Project planning (local only)
+PROJECT_CHECKLIST.md
+CLAUDE.PROJECT.md
